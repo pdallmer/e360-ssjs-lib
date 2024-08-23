@@ -1,0 +1,1 @@
+export { wsproxy } from './loaders/ssjsLoader!./ssjs-lib/core/lib_wsproxy.ssjs';

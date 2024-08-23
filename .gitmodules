@@ -1,0 +1,3 @@
+[submodule "ssjs-lib"]
+	path = ssjs-lib
+	url = https://github.com/email360/ssjs-lib.git
