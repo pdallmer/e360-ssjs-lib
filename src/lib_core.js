@@ -36,4 +36,4 @@ export {
     base64pad,
     convertXMLToJSON,
     _updateSettings
-} from './loaders/ssjsLoader!./ssjs-lib/core/lib_core.ssjs';
+} from '../loaders/ssjsLoader!../ssjs-lib/core/lib_core.ssjs';

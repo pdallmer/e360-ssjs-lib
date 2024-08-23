@@ -13,9 +13,9 @@ export {
     EncryptSymmetric,
     DecryptSymmetric,
     TransformXML
-} from './loaders/ssjsLoader!./ssjs-lib/core/lib_amp.ssjs';
+} from '../loaders/ssjsLoader!../ssjs-lib/core/lib_amp.ssjs';
 
-export { cloudpage } from './loaders/ssjsLoader!./ssjs-lib/core/lib_cloudpage.ssjs';
+export { cloudpage } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_cloudpage.ssjs';
 export {
     logError,
     logWarning,
@@ -54,10 +54,10 @@ export {
     base64pad,
     convertXMLToJSON,
     _updateSettings
-} from './loaders/ssjsLoader!./ssjs-lib/core/lib_core.ssjs';
-export { einstein } from './loaders/ssjsLoader!./ssjs-lib/core/lib_einstein.ssjs';
-export { jwt } from './loaders/ssjsLoader!./ssjs-lib/core/lib_jwt.ssjs';
-export { logger } from './loaders/ssjsLoader!./ssjs-lib/core/lib_logger.ssjs';
-import './loaders/ssjsLoader!./ssjs-lib/core/lib_polyfill.ssjs';
-export { sfmcapi } from './loaders/ssjsLoader!./ssjs-lib/core/lib_sfmcapi.ssjs';
-export { wsproxy } from './loaders/ssjsLoader!./ssjs-lib/core/lib_wsproxy.ssjs';
+} from '../loaders/ssjsLoader!../ssjs-lib/core/lib_core.ssjs';
+export { einstein } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_einstein.ssjs';
+export { jwt } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_jwt.ssjs';
+export { logger } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_logger.ssjs';
+import '../loaders/ssjsLoader!../ssjs-lib/core/lib_polyfill.ssjs';
+export { sfmcapi } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_sfmcapi.ssjs';
+export { wsproxy } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_wsproxy.ssjs';

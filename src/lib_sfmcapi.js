@@ -1,0 +1,1 @@
+export { sfmcapi } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_sfmcapi.ssjs';

@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./lib_amp": "./src/lib_amp.js",
+    "./lib_cloudpage": "./src/lib_cloudpage.js",
+    "./lib_core": "./src/lib_core.js",
+    "./lib_einstein": "./src/lib_einstein.js",
+    "./lib_jwt": "./src/lib_jwt.js",
+    "./lib_logger": "./src/lib_logger.js",
+    "./lib_polyfill": "./src/lib_polyfill.js",
+    "./lib_sfmcapi": "./src/lib_sfmcapi.js",
+    "./lib_wsproxy": "./src/lib_wsproxy.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config ./framework/webpack.config.js",

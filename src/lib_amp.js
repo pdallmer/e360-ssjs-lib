@@ -12,5 +12,5 @@ export {
     EncryptSymmetric,
     DecryptSymmetric,
     TransformXML
-} from './loaders/ssjsLoader!./ssjs-lib/core/lib_amp.ssjs';
+} from '../loaders/ssjsLoader!../ssjs-lib/core/lib_amp.ssjs';
 

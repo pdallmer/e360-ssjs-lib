@@ -1,1 +1,0 @@
-export { einstein } from './loaders/ssjsLoader!./ssjs-lib/core/lib_einstein.ssjs';

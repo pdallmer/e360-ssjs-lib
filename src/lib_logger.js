@@ -1,0 +1,1 @@
+export { logger } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_logger.ssjs';

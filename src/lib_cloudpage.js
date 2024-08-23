@@ -1,0 +1,1 @@
+export { cloudpage } from '../loaders/ssjsLoader!../ssjs-lib/core/lib_cloudpage.ssjs';
