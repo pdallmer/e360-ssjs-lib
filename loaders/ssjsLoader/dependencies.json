@@ -70,5 +70,28 @@
     ],
     "lib_wsproxy": [
         "wsproxy"
+    ],
+    "polyfills": [
+        "isInteger",
+        "parseFloat",
+        "substr",
+        "startsWith",
+        "includes",
+        "padStart",
+        "padEnd",
+        "repeat",
+        "codePointAt",
+        "keys",
+        "forEach",
+        "filter",
+        "splice",
+        "reduce",
+        "isArray",
+        "some",
+        "keys",
+        "indexOf",
+        "from",
+        "map",
+        "toISOString"
     ]
 }

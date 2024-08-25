@@ -18,6 +18,7 @@ module.exports = (env) => {
       lib_polyfill: './src/lib_polyfill',
       lib_sfmcapi: './src/lib_sfmcapi',
       lib_wsproxy: './src/lib_wsproxy',
+
     },
     output: {
       path: path.resolve(__dirname, '../dist'),

@@ -7,14 +7,14 @@ npm install e360-ssjs-lib
 ```
 ## Usage
 **Import single functions without importing the whole library**
-You can import individual functions without loading the entire library, which is helpful if you want to avoid importing sections like polyfills. The loader will take care of the dependecies. e.g. jwt is dependant on lib_amp, lib_core, lib_sfmcapi, lib_wsproxy, lib_logger. So importing jwt will also import those dependencies.
+You can import individual functions without loading the entire library, which reduces the overall bundle size. The loader will take care of the dependecies. e.g. jwt is dependant on lib_amp, lib_core, lib_sfmcapi, lib_wsproxy, lib_logger and lib_polyfill. So importing jwt will also import those dependencies.
 ```javascript
 import { jwt } from 'e360-ssjs-lib/lib_jwt';
 
 const jwtInstance = jwt();
 ```
 **Import from the entire library**
-This will import and expose the named function, but it will also import everything else from the library, including polyfills.
+This will import and expose the named function, but it will also import everything else from the library.
 ```javascript
 import { getUnixTimestamp } from 'e360-ssjs-lib';
 
