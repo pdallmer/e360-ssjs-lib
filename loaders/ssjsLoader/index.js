@@ -35,10 +35,7 @@ module.exports = function (input) {
     const resource = this.resource.replace(/.*?(\w+).ssjs$/g, "$1");
     traverse(ast, {
         FunctionDeclaration(path) {
-            path.node.leadingComments = null;
-            path.node.trailingComments = null;
-            path.node.innerComments = null;
-            functions[path.node.id.name] = generate(path.node, { comments: false }).code;
+            functions[path.node.id.name] = generate(path.node).code;
         },
 
         CallExpression(path) {
