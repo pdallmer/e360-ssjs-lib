@@ -1,3 +1,4 @@
+import '../ssjs-lib/core/lib_logger.ssjs'
 export {
     logError,
     logWarning,

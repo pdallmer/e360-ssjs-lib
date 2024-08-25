@@ -8,16 +8,16 @@ const SsjsConfig = require("../ssjs.config.js");
 module.exports = (env) => {
   return {
     entry: {
-      index: './index.js',
-      lib_amp: './lib_amp',
-      lib_cloudpage: './lib_cloudpage',
-      lib_core: './lib_core',
-      lib_einstein: './lib_einstein',
-      lib_jwt: './lib_jwt',
-      lib_logger: './lib_logger',
-      lib_polyfill: './lib_polyfill',
-      lib_sfmcapi: './lib_sfmcapi',
-      lib_wsproxy: './lib_wsproxy',
+      index: './src/index.js',
+      lib_amp: './src/lib_amp',
+      lib_cloudpage: './src/lib_cloudpage',
+      lib_core: './src/lib_core',
+      lib_einstein: './src/lib_einstein',
+      lib_jwt: './src/lib_jwt',
+      lib_logger: './src/lib_logger',
+      lib_polyfill: './src/lib_polyfill',
+      lib_sfmcapi: './src/lib_sfmcapi',
+      lib_wsproxy: './src/lib_wsproxy',
     },
     output: {
       path: path.resolve(__dirname, '../dist'),

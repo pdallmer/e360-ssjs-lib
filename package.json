@@ -1,6 +1,6 @@
 {
   "name": "e360-ssjs-lib",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "src/index.js",
   "exports": {
@@ -59,6 +59,7 @@
     "@babel/parser": "^7.25.3",
     "@babel/traverse": "^7.25.3",
     "@babel/types": "^7.25.2",
-    "dotenv-webpack": "^8.0.1"
+    "dotenv-webpack": "^8.0.1",
+    "raw-loader": "^4.0.2"
   }
 }

@@ -1,0 +1,74 @@
+{
+    "lib_amp": [
+        "HTTPRequestHeader",
+        "UpdateSingleSalesforceObject",
+        "RetrieveSalesforceObjects",
+        "CloudPagesURL",
+        "SHA1",
+        "SHA256",
+        "SHA512",
+        "GetJWT",
+        "GetJWTByKeyName",
+        "DataExtensionRowCount",
+        "EncryptSymmetric",
+        "DecryptSymmetric",
+        "TransformXML"
+    ],
+    "lib_cloudpage": [
+        "cloudpage"
+    ],
+    "lib_core": [
+        "logError",
+        "logWarning",
+        "isObject",
+        "dateAdd",
+        "dateSubtract",
+        "getDateFromDateTime",
+        "getDateUTC",
+        "getUnixTimestamp",
+        "dateDiffInHours",
+        "dateDiffInDays",
+        "timeConvert",
+        "groupBy",
+        "inObject",
+        "inObjectRecursive",
+        "mergeObject",
+        "shuffle",
+        "deleteArrayItem",
+        "createAmpVariables",
+        "getMemberID",
+        "console",
+        "debug",
+        "wait",
+        "isContentBlockByKey",
+        "getPageUrl",
+        "isCustomerKey",
+        "httpRequest",
+        "getRandomData",
+        "createAmpVariablesFromObject",
+        "flatten",
+        "getGitHubRepoContent",
+        "stripScriptTag",
+        "isBase64",
+        "base64urlUnescape",
+        "base64urlEscape",
+        "base64pad",
+        "convertXMLToJSON",
+        "_updateSettings"
+    ],
+    "lib_einstein": [
+        "einstein"
+    ],
+    "lib_jwt": [
+        "jwt"
+    ],
+    "lib_logger": [
+        "logger"
+    ],
+    "lib_sfmcapi": [
+        "sfmcapi"
+    ],
+    "lib_wsproxy": [
+        "wsproxy"
+    ]
+}

@@ -1,1 +1,1 @@
-import '../loaders/ssjsLoader!../ssjs-lib/core/lib_polyfill.ssjs';
+import '../ssjs-lib/core/lib_polyfill.ssjs';
