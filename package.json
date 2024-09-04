@@ -1,7 +1,7 @@
 {
   "name": "e360-ssjs-lib",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "e360-ssjs-lib package to use with the ssjs framework",
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/pdallmer/e360-ssjs-lib"
   },
   "keywords": [
     "javascript",
@@ -36,9 +36,9 @@
   "author": "pdallmer",
   "license": "MIT",
   "bugs": {
-    "url": "/issues"
+    "url": "https://github.com/pdallmer/e360-ssjs-lib/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/pdallmer/e360-ssjs-lib",
   "devDependencies": {
     "@babel/preset-env": "^7.23.2",
     "babel-loader": "^9.1.3",
